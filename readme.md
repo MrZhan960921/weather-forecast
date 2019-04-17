@@ -5,6 +5,7 @@ http://mobile.weather.com.cn/js/citylist.xml
 
 
 xml解析映射成java类
+```java
 //根元素
 @XmlRootElement(name = "d")
 //访问类型
@@ -22,3 +23,4 @@ public class City {
 	@XmlAttribute(name = "d4")
 	private String province;
 }
+```
